@@ -1,0 +1,116 @@
+/* This is a comment! */
+
+/*
+  Uncomment one block at a time to see how it appears in the 
+  web browser! :)
+*/
+
+
+/* type selector */
+
+body {
+  color: black;
+}
+
+/*
+figcaption {
+  color: red;
+}
+*/
+
+/* 
+section {
+  color: red;
+} 
+*/
+
+
+/* combining selectors */
+
+/* 
+h1, 
+h2, 
+h3, 
+h4 {
+  color: red;
+} 
+*/
+
+
+/* id selector */
+
+/*
+#introduction {
+  color: red;
+}
+*/
+
+
+/* class selector */
+
+/*
+.alt-row {
+  color: red;
+}
+*/
+
+
+/* descendant selector */
+
+/* 
+nav li {
+  color: red;
+} 
+*/
+
+/*
+#volcanic-features figcaption li {
+  color: red;
+}
+*/
+
+
+/* child selector */
+
+/* 
+p > strong {
+  color: red;
+}
+*/
+
+
+/* attribute selector */
+
+/* 
+abbr[title] {
+  color: red;
+} 
+*/
+
+/*
+[datetime='1980'] {
+  color: red;
+}
+*/
+
+
+/* pseudo-element - changes a part of the element */
+
+/*
+p::first-line {
+  color: red;
+}
+*/
+
+
+/* pseudo-class - changes the 'state' of an element */
+
+/*
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+*/
