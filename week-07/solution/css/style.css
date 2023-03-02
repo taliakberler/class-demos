@@ -78,6 +78,12 @@ p > strong {
 }
 */
 
+/*
+ul > li {
+  list-style-type: square;
+} 
+*/
+
 
 /* attribute selector */
 
@@ -89,6 +95,13 @@ abbr[title] {
 
 /*
 [datetime='1980'] {
+  color: red;
+}
+*/
+
+/*
+[href^='http'],
+[href^='https'] {
   color: red;
 }
 */
