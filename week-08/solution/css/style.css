@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@900&display=swap');
+
+body {
+  background-color: #eee; /* light gray */
+  color: #222; /* dark gray */
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  /* font-weight: 400; */
+}
+
+a,
+a:link {
+  color: #4776ba; /* Facebook blue */
+  text-decoration: none;
+}
+
+a:visited {
+  color: #A74AE3; /* Firefox purple */
+}
+
+a:hover {
+  color: rgb(240,162,93);
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(107,217,79);
+}
+
+h1,
+h2 {
+  font-family: "Roboto Slab", "Helvetica", "Arial", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.3;
+}
+
+figcaption {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.attribution {
+  text-align: right;
+}
+
+
+
+/* ignore these rules ... for now :) */
+
+figure {
+  margin: 0;
+}
+
+main {
+  max-width: 600px
+}
