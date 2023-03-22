@@ -1,0 +1,17 @@
+body {
+
+}
+
+
+
+
+
+/* ignore these rules ... for now :) */
+
+figure {
+  margin: 0;
+}
+
+main {
+  max-width: 600px
+}
