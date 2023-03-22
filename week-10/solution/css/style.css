@@ -1,0 +1,30 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+p {
+  margin-top: 0;
+}
+
+/*
+#box {
+  background-color: #ddd;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+*/
+
+/*
+#box {
+  background-color: #ddd;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+*/
+
+#box {
+  background-color: #ddd;
+  width: 300px;
+  height: 100px;
+  overflow: auto;
+}
