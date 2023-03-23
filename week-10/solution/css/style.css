@@ -6,25 +6,45 @@ p {
   margin-top: 0;
 }
 
-/*
-#box {
-  background-color: #ddd;
-  margin-top: 100px;
-  margin-left: 100px;
-}
-*/
-
-/*
-#box {
-  background-color: #ddd;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-*/
+/* box model */
 
 #box {
-  background-color: #ddd;
+  background-color: #ccc;
+
+
+  border: 3px solid #222;
+
+  /* border-top-width: 10px;
+  border-top-style: dotted;
+  border-top-color: #f00; */
+
+  /* border-top: 10px dashed #f0f;
+  border-bottom: 20px groove #0f0; */
+
+
+  /* margin: 20px 10px; */
+
+  /* margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px; */
+
+  
+  /* padding: 20px; */
+  
+  /* padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px; */
+}
+
+
+/* width, height, overflow */
+
+/* 
+#box {
   width: 300px;
-  height: 100px;
+  height: 900px;
   overflow: auto;
 }
+*/
