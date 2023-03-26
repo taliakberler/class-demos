@@ -1,1 +1,64 @@
 /* This is a comment! */
+
+body {
+    color: black;
+}
+
+/* figcaption {
+    color: red;
+} */
+
+/* section {
+    color: red
+} */
+
+/* h1,
+h2,
+h3 {
+    color: red
+} */
+
+/* #introduction {
+    color: red
+} */
+
+/* .alt-row {
+    color: red
+} */
+
+/* nav li {
+    color: red
+} */
+
+/* #volcanic-features figcaption li {
+    color: red;
+} */
+
+/* ul > li {
+    list-style-type: square;
+} */
+
+/* [datetime='1980'] {
+    color: red;
+}
+
+abbr[title] {
+    color: red;
+} */
+
+/* [href^="http"],
+[href^='https'] {
+    color: red;
+} */
+
+/* p::first-line {
+    color: red;
+} */
+
+/* a:hover {
+    color: red;
+}
+
+a:active {
+    color:red;
+} */
