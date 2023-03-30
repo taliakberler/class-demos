@@ -1,0 +1,63 @@
+#masthead {
+  grid-area: masthead;
+}
+
+#sidebar {
+  grid-area: sidebar;
+}
+
+#article {
+  grid-area: article;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-auto-rows: 200px;
+  grid-gap: 20px;
+  grid-template-areas:
+  "masthead  masthead"
+  "sidebar   article"
+  "footer    footer";
+}
+
+.grid div {
+  border: 1px solid rgb(12,71,162);
+  border-radius: 3px;
+  background-color: rgba(12,71,162,0.8);
+  padding: 0.2rem;
+  color: #fff;
+}
+
+.grid div:nth-of-type(2n) {
+  background-color: rgba(12,71,162,0.6);
+}
+
+/*
+  We only need to overwrite the rules which should be different
+  depending on how we need to adjust our grid for tablet (768px)
+  and mobile (414px) viewports!
+
+  Everything else is inherited from the .grid block (lines 17-26).
+*/
+
+@media(max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 414px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "masthead"
+      "article"
+      "sidebar"
+      "footer";
+  }
+}
