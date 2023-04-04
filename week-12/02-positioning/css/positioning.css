@@ -1,0 +1,28 @@
+main {
+  border: 2px dashed #222;
+  width: 800px;
+  min-height: 500px;
+}
+
+#red,
+#yellow,
+#blue {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #222;
+}
+
+#red {
+  border-color: rgb(255,0,0);
+  background-color: rgba(255,0,0,0.5);
+}
+
+#yellow {
+  border-color: rgb(249,211,87);
+  background-color: rgba(249,211,87,0.5);
+}
+
+#blue {
+  border-color: rgb(0,0,255);
+  background-color: rgba(0,0,255,0.5);
+}

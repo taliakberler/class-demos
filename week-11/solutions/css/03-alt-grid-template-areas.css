@@ -1,0 +1,45 @@
+header {
+  grid-area: header;
+}
+
+aside {
+  grid-area: aside;
+}
+
+article {
+  grid-area: article;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, 100px);
+  grid-gap: 20px;
+  grid-template-areas:
+  "header   header"
+  "aside    article"
+  "aside    footer";
+}
+
+
+/* Write your styles above this line! 👆👆👆 */
+
+.grid header,
+.grid aside,
+.grid article,
+.grid footer {
+  border: 1px solid rgb(12,71,162);
+  border-radius: 3px;
+  background-color: rgba(12,71,162,0.8);
+  padding: 0.2rem;
+  color: #fff;
+}
+
+.grid aside,
+.grid article {
+  background-color: rgba(12,71,162,0.6);
+}
