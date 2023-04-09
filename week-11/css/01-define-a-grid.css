@@ -1,4 +1,13 @@
-
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px 200px;
+  grid-auto-rows: 300px;
+  /* grid-column-gap: 20px;
+  grid-row-gap: 20px; */
+  grid-gap: 30px;
+  max-width: 900px;
+}
 
 
 /* Write your styles above this line! 👆👆👆 */
